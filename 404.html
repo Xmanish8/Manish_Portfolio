@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:;">
+<title>404 — Page Not Found | Manish Dattu Marathe</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  min-height:100vh;display:flex;align-items:center;justify-content:center;
+  flex-direction:column;font-family:'Inter',sans-serif;
+  background:#050A14;color:#E8F4FD;text-align:center;padding:20px;
+  background-image:
+    radial-gradient(circle at 30% 40%,rgba(0,240,255,.04) 0%,transparent 50%),
+    radial-gradient(circle at 70% 60%,rgba(123,47,255,.04) 0%,transparent 50%);
+}
+.code{
+  font-family:'Space Grotesk',sans-serif;font-size:clamp(6rem,15vw,12rem);
+  font-weight:700;line-height:1;
+  background:linear-gradient(135deg,#00F0FF,#7B2FFF);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  background-clip:text;margin-bottom:16px;
+  text-shadow:none;filter:drop-shadow(0 0 40px rgba(0,240,255,.2));
+}
+h1{font-family:'Space Grotesk',sans-serif;font-size:1.5rem;margin-bottom:12px;font-weight:600}
+p{color:#4A6FA5;font-size:1rem;margin-bottom:32px;max-width:400px;line-height:1.6}
+.terminal{
+  font-family:'JetBrains Mono',monospace;font-size:.8rem;
+  background:rgba(13,27,42,.6);border:1px solid rgba(0,240,255,.08);
+  border-radius:12px;padding:20px 28px;margin-bottom:32px;
+  text-align:left;max-width:420px;color:#4A6FA5;
+}
+.terminal .prompt{color:#00F0FF}
+.terminal .err{color:#ff6b6b}
+.btn{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:14px 32px;border-radius:12px;font-size:.95rem;
+  font-weight:600;font-family:'Inter',sans-serif;
+  background:linear-gradient(135deg,#00F0FF,#00c4d0);
+  color:#050A14;text-decoration:none;transition:all .3s;
+  box-shadow:0 0 30px rgba(0,240,255,.15);
+}
+.btn:hover{box-shadow:0 0 50px rgba(0,240,255,.3);transform:translateY(-2px)}
+</style>
+</head>
+<body>
+<div class="code">404</div>
+<h1>Signal Lost in Deep Space</h1>
+<p>The page you're looking for doesn't exist in this dimension. Let's navigate you back to charted territory.</p>
+<div class="terminal">
+<span class="prompt">$</span> locate requested_page<br>
+<span class="err">error:</span> page not found in /universe<br>
+<span class="prompt">$</span> suggest --redirect home<br>
+<span style="color:#00FFAA">✓ Redirect ready. Click below.</span>
+</div>
+<a href="/" class="btn">← Return to Base</a>
+</body>
+</html>

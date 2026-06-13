@@ -1,0 +1,20 @@
+{
+  "name": "Manish Dattu Marathe — AI & Machine Learning Engineer",
+  "short_name": "MDM Portfolio",
+  "description": "Portfolio of Manish Dattu Marathe — AI Engineer, ML Builder, Computer Vision Developer & Robotics Enthusiast.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#050A14",
+  "theme_color": "#00F0FF",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["portfolio", "personal", "technology"]
+}
